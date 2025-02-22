@@ -1,7 +1,7 @@
 /* css external */
 
 body {
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-header {
@@ -12,10 +12,10 @@ body {
 
 .logo-company {
     height: 50px;
-    width: 50px;
-    
+    width: 200px;
+    background-image: url(image/smdcv1.png);
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 nav {
@@ -27,7 +27,7 @@ nav > a {
     color: black;
     text-decoration: none;
     padding: 8px;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .no-border-radius {
